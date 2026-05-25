@@ -1,0 +1,52 @@
+.navbar {
+    background: #001f48;
+    color: white;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-logo{
+    width: 110px;
+    height: auto;
+}
+
+.logo-texto h1, .logo-texto h2, .logo-texto h3{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo1{
+    color: #f7e200;
+    font-size: 1.1rem;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 16pt;
+    gap: 40px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.nav-links a.active{
+    color: #f7e200;
+    border-bottom: 3px solid #f7e200;
+}
