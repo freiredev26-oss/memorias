@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/src/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 .hero{
     height: 85vh;
-    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.955),rgba(255, 255, 255, 0.35),rgba(255, 255, 255, 0)), url('./campoGrande1.webp');
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.955) 0%,
+        rgba(255, 255, 255, 0.596) 15%,
+        rgba(255, 255, 255, 0)70%), url('/src/assets/images/campoGrande1.webp');
     background-size: cover;
     background-position: center right;
     position: relative;
@@ -17,10 +26,67 @@
     max-width: 550px;
 }
 
+.hero-content h1 {
+    font-family: "Montserrat";
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 800;
+
+}
+
+.hero-content span {
+    color: #009c5d;
+    font-family: "Montserrat";
+}
+
+.hero-content p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.6;
+    color: #023681;
+    font-family: "Montserrat";
+}
+
+.ilustracoes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.hero-paragrafo-div {
+    width: 370px;
+}
+
+.btn-explorar {
+    margin-top: 35px;
+    border: none;
+    background: #001f48;
+    color: white;
+    padding: 20px 32px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-explorar:hover {
+    background-color: #002b66;
+    transform: translateY(-2px);
+}
+
 .capy {
     position: absolute;
     bottom: 15px;
-    right: 30%;
+    right: 13%;
     width: 230px;
     height: auto;
     z-index: 3;
@@ -37,9 +103,9 @@
 
 .ipe {
     position: absolute;
-    bottom: 130px;
+    bottom: 120px;
     right: -1%;
-    width: 230px;
+    width: 260px;
     height: auto;
     z-index: 3;
 }

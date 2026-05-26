@@ -1,4 +1,6 @@
 import logoCidade from '/src/assets/images/logo.png'
+import { FaHome, FaQuestionCircle, FaUsers } from 'react-icons/fa'
+import { MdQuiz } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
@@ -16,16 +18,16 @@ export default function Navbar() {
 
             <div className='nav-links'>
                 <NavLink to="/">
-                Início
+                    <FaHome />Início
                 </NavLink>
                 <NavLink to="/atividades">
-                Atividades
+                    <MdQuiz />Atividades
                 </NavLink>
                 <NavLink to="/sobre">
-                Sobre
+                    <FaQuestionCircle />Sobre
                 </NavLink>
                 <NavLink to="/equipe">
-                Equipe
+                    <FaUsers />Equipe
                 </NavLink>
             </div>
         </nav>
