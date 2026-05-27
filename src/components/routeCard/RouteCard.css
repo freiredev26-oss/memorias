@@ -1,0 +1,47 @@
+.route-card {
+  position: relative;
+  height: 270px;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 380px; 
+  flex-shrink: 0;   
+  scroll-snap-align: start; 
+}
+
+.route-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.route-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.8),
+      transparent
+    );
+
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.route-overlay h3 {
+  font-size: 22px;
+}
+
+.route-overlay p {
+  margin-top: 10px;
+}
+
+.route-info {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}

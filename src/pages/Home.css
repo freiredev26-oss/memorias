@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fontes/Montserrat-VariableFont_wght.ttf');
+}
+
+.routes-section {
+  padding: 50px 80px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  color: #023681;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Estilização do grupo de botões */
+.carousel-nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  background: white;
+  border: 2px solid #023681;
+  color: #023681;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+  background: #023681;
+  color: white;
+}
+
+.routes-grid {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.routes-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.routes-grid {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
