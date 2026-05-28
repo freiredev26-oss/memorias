@@ -4,6 +4,8 @@ import Hero from "/src/components/navbar/hero/Hero";
 import { routes } from "/src/data/routesData";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import RoutCard from "../components/routeCard/RoutCard";
+import Destaques from "/src/components/destaques/Destaques"
+import ComoFunciona from "/src/components/ComoFunciona/ComoFunciona"
 
 function Home() {
 
@@ -44,6 +46,10 @@ function Home() {
           {routes.map((route) => (
             <RoutCard key={route.id} route={route} />
           ))}
+        </div>
+        <div className="info-grid">
+            <ComoFunciona />
+            <Destaques />
         </div>
       </section>
     </>
