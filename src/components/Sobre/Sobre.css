@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fontes/Montserrat-VariableFont_wght.ttf');
+}
+
+.sobre-caixa {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+.sobre-cabecalho {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sobre-cabecalho h1 {
+  font-size: 2.5rem;
+  color: #002454;
+  font-weight: 800;
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.sobre-cabecalho h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 30%;
+  width: 40%;
+  height: 4px;
+  background-color: #ffd000; 
+  border-radius: 2px;
+}
+
+.sobre-cabecalho .subtitulo {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.sobre-secao {
+  margin-bottom: 60px;
+}
+
+.introducao{
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.sobre-texto-bloco h2 {
+  font-size: 1.8rem;
+  color: #002454;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.sobre-texto-bloco p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.sobre-caixa-destaque {
+  background-color: #f4f7fa;
+  border-left: 6px solid #1b853e;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.sobre-caixa-destaque h3 {
+  color: #002454;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.problema {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.solucao-tag {
+  background-color: #002454;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.secao-titulo-central {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #002454;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.secao-subtitulo-central {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.eixos-grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.eixo-cartao {
+  background: #ffffff;
+  border: 1px solid #eef2f7;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease;
+}
+
+.eixo-cartao:hover {
+  transform: translateY(-5px);
+}
+
+.eixo-icone-parede {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  font-size: 28px;
+}
+
+.circulo-azul { background-color: #e6f0fa; color: #002454; }
+.circulo-verde { background-color: #e6f7ed; color: #1b853e; }
+.circulo-amarelo { background-color: #fffbe6; color: #ffd000; }
+
+.eixo-cartao h3 {
+  font-size: 1.3rem;
+  color: #002454;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.eixo-cartao p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.metas-caixas {
+  background: linear-gradient(135deg, #002454 0%, #023681 100%);
+  color: #ffffff;
+  padding: 45px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 36, 84, 0.15);
+}
+
+.metas-conteudo h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.metas-conteudo p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.metas-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.metas-lista li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.metas-lista-icone {
+  color: #ffd000;
+  font-size: 22px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.metas-lista span strong {
+  color: #ffd000;
+}
+
+@media (max-width: 900px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-cabecalho h1 { font-size: 2rem; }
+  .sobre-cabecalho .subtitle { font-size: 1.05rem; }
+  .metas-caixas { padding: 30px 20px; }
+}

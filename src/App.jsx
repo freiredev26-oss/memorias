@@ -1,4 +1,5 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Sobre from "./components/Sobre/Sobre"
 import NavBar from "../src/components/navbar/Navbar"
 import Home from "./pages/Home"
 import './App.css'
@@ -6,8 +7,11 @@ import './App.css'
 export default function App() {
   return(
       <BrowserRouter>
-      <NavBar />
-      <Home />
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+        </Routes>
       </BrowserRouter>
   )
 }
