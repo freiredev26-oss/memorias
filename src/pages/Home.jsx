@@ -47,7 +47,7 @@ function Home() {
             <RoutCard key={route.id} route={route} />
           ))}
         </div>
-        <div className="info-grid">
+        <div className="informacao">
             <ComoFunciona />
             <Destaques />
         </div>
