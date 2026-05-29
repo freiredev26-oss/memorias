@@ -216,6 +216,10 @@
   color: #ffd000;
 }
 
+.voando-alto {
+  color: white;
+}
+
 @media (max-width: 900px) {
   .introducao {
     grid-template-columns: 1fr;

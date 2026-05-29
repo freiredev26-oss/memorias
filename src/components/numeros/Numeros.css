@@ -1,0 +1,110 @@
+.numeros {
+    margin: 40px 0px;
+    padding: 25px 30px;
+    background-color: #e7f0f9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.conteudo-numeros {
+    flex-grow: 1;
+}
+
+.numeros h2 {
+    color: #023681;
+    font-size: 22px;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.numeros-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.numero-card {
+    background: white;
+    width: 100%;
+    min-height: 78%;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 40px;
+    height: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.quadrado img{
+    width: 60%;
+    height: auto;
+}
+
+.texto-cartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+.texto-cartao p{
+    margin: 0;
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.2;
+}
+
+.texto-cartao h3{
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    color: #023681;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.img-azul {
+    background-color: #023681;
+    color: #E7F0F9;
+    width: 30%;
+    height: 100%;
+    font-size: 36pt;
+}
+
+.img-verde {
+    background-color: #e2f2ea;
+    color: #009c5d;
+    width: 30%;
+    height: 100%;
+}
+
+.img-amarelo{
+    background-color: #f7e200;
+    color: #023681;
+    width: 30%;
+    height: 100%;
+    font-size: 36pt;
+}
+
+.quadrado img {
+    width: 60%;
+    height: auto;
+}
+
+.mapa-logo{
+    height: 150px;
+    width: auto;
+    margin-left: 25px;
+}

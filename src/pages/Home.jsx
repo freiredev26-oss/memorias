@@ -6,6 +6,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import RoutCard from "../components/routeCard/RoutCard";
 import Destaques from "/src/components/destaques/Destaques"
 import ComoFunciona from "/src/components/ComoFunciona/ComoFunciona"
+import Numeros from "../components/numeros/Numeros";
 
 function Home() {
 
@@ -51,6 +52,7 @@ function Home() {
             <ComoFunciona />
             <Destaques />
         </div>
+        <Numeros />
       </section>
     </>
   );

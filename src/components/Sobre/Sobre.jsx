@@ -69,7 +69,7 @@ function Sobre() {
 
       <section className="sobre-secao metas-caixas">
         <div className="metas-conteudo">
-          <h2>Voando Alto</h2>
+          <h2 className="voando-alto">Voando Alto</h2>
           <p>
             Mais do que uma ferramenta interna de aprendizado, o projeto foi validado e estruturado seguindo os critérios de grandes competições de inovação e relevância científica juvenil:
           </p>
