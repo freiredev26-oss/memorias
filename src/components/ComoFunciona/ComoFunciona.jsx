@@ -1,33 +1,49 @@
-import "./ComoFunciona.css"
-import { BsQrCode } from "react-icons/bs" 
-import { RiGraduationCapFill } from "react-icons/ri"
+import { BsQrCode } from "react-icons/bs";
+import { CiLocationOn } from "react-icons/ci";
+import { FaTrophy } from "react-icons/fa";
+import { RiArrowRightLongLine } from "react-icons/ri";
+import "./ComoFunciona.css";
 
-export default function ComoFunciona() {
-  return(
-      <section className="como">
-        <h2>Como funciona</h2>
-        <div className="passos">
-            <div className="icone-quad icone-verde">
-                <div className="icone-circulo icone-azul">
-                    <BsQrCode />
-                </div>
-            </div>
-            <div className="destaques-texto">
-                <h3 className="subtitulo-verde">Áudios narrados por crianças</h3>
-                <p>Histórias contadas com nossas vozes e muito carinho.</p>    
-            </div>
+function HowItWorks() {
+  return (
+    <section className="como">
+      <h2>Como funciona</h2>
+
+      <div className="passos">
+        <div className="passo">
+          <div className="icone-circulo icone-azul">
+            <BsQrCode />
+          </div>
+          <h3 className="numero1">1</h3>
+          <p>Escaneie o QR Code</p>
         </div>
 
-        <div className="destaques-item">
-            <div className="icone-quad icone-azul">
-                <RiGraduationCapFill />
-            </div>
-
-            <div className="destaques-texto">
-                <h3 className="subtitulo-azul">Feito por alunos do 8° ano B</h3>
-                <p>Pesquisa, tecnologia e criatividade a serviço da nossa cidade.</p>
-            </div>
+        <div className="passo-seta">
+          <RiArrowRightLongLine />
         </div>
-      </section>
-  )
+
+        <div className="passo">
+          <div className="icone-circulo icone-verde">
+            <CiLocationOn />
+          </div>
+          <h3 className="numero2">2</h3>
+          <p>Explore os conteúdos</p>
+        </div>
+
+        <div className="passo-seta">
+          <RiArrowRightLongLine />
+        </div>
+
+        <div className="passo">
+          <div className="icone-circulo icone-amarelo">
+            <FaTrophy />
+          </div>
+          <h3 className="numero3">3</h3>
+          <p>Responda os quizzes</p>
+        </div>
+      </div>
+    </section>
+  );
 }
+
+export default HowItWorks;

@@ -1,31 +1,100 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf');
+  font-family: 'Montserrat';
+  src: url('/src/assets/fontes/Montserrat-VariableFont_wght.ttf');
 }
 
 .como {
-    background: white;
-    padding: 40px;
-    border-radius: 24px;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.327);
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
+  background: white;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.327);
 }
 
-.como h2 {
-    font-weight: 800;
-    color: #023681;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  color: #023681;
+  margin-bottom: 20px;
 }
 
-.passos { 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 30px;
-    gap: 10px;
+.passos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 10px;
 }
 
+.passo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #023681;
+  flex: 1;
+}
+
+.icone-circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.icone-azul {
+  background-color: rgba(2, 54, 129, 0.15);
+  color: #023681;
+}
+
+.icone-verde {
+  background-color: rgba(0, 156, 93, 0.15);
+  color: #009c5d;
+}
+
+.icone-amarelo {
+  background-color: rgba(246, 201, 30, 0.15);
+  color: #f6c91e;
+}
+
+.step h3 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 0 15px 0;
+}
+
+.step .number1 { background: #023681; }
+.step .number2 { background: #009C5D; }
+.step .number3 { background: #023681; } 
+
+.passo p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  max-width: 180px;
+}
+
+.passo-seta {
+  color: #b0c4de; 
+  font-size: 28px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;  
+  opacity: 0.8;
+}

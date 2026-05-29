@@ -65,3 +65,12 @@
   -ms-overflow-style: none;
   scrollbar-width: none; 
 }
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch; 
+  gap: 30px;
+  padding: 0 80px;
+  margin-bottom: 30px;
+}
