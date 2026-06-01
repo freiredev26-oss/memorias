@@ -7,6 +7,7 @@ import RoutCard from "/src/components/routeCard/RoutCard";
 import Destaques from "/src/components/destaques/Destaques"
 import ComoFunciona from "/src/components/comoFunciona/ComoFunciona"
 import Numeros from "/src/components/numeros/Numeros";
+import Footer from "/src/components/footer/Footer";
 
 function Home() {
 
@@ -54,6 +55,7 @@ function Home() {
         </div>
         <Numeros />
       </section>
+      <Footer />
     </>
   );
 }
