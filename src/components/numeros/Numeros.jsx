@@ -2,7 +2,7 @@ import './Numeros.css'
 import { PiTreeFill } from 'react-icons/pi'
 import IconMs from "/src/assets/images/ms.png"
 import { FaPeopleGroup } from 'react-icons/fa6'
-import logoTerere from "/src/assets/images/ms.png"
+import logoTerere from "/src/assets/images/terere.png"
 import logoMs from "/src/assets/images/msIcon.png"
 
 export default function Numeros(){

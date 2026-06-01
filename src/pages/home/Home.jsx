@@ -1,12 +1,12 @@
 import "./Home.css";
 import { useRef } from "react";
-import Hero from "/src/components/navbar/hero/Hero";
+import Hero from "/src/components/hero/Hero";
 import { routes } from "/src/data/routesData";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import RoutCard from "../components/routeCard/RoutCard";
+import RoutCard from "/src/components/routeCard/RoutCard";
 import Destaques from "/src/components/destaques/Destaques"
-import ComoFunciona from "/src/components/ComoFunciona/ComoFunciona"
-import Numeros from "../components/numeros/Numeros";
+import ComoFunciona from "/src/components/comoFunciona/ComoFunciona"
+import Numeros from "/src/components/numeros/Numeros";
 
 function Home() {
 
