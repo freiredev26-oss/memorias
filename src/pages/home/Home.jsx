@@ -8,6 +8,7 @@ import Destaques from "/src/components/destaques/Destaques"
 import ComoFunciona from "/src/components/comoFunciona/ComoFunciona"
 import Numeros from "/src/components/numeros/Numeros";
 import Footer from "/src/components/footer/Footer";
+import Cta from "/src/components/cta/Cta"
 
 function Home() {
 
@@ -54,6 +55,7 @@ function Home() {
             <Destaques />
         </div>
         <Numeros />
+        <Cta />
       </section>
       <Footer />
     </>

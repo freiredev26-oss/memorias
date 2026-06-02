@@ -1,0 +1,70 @@
+.cta {
+    margin: 40px 80px;
+    background: linear-gradient(rgba(2, 54, 129, 0.9), rgba(1, 31, 72, 0.9));
+    color: white;
+    padding: 40px 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.cta-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icone-camera {
+    border: 3px solid #ffd700;
+    border-radius: 20px;
+    color: #ffd700;
+    width: 90px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    flex-shrink: 0;
+}
+
+.cta-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cta-textos h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cta-textos h3{
+    color: #e0e0e0;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.cta-botao{
+    background: #ffd700;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #023681;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    white-space: nowrap;
+}
+
+.cta-botao:hover {
+    transform: scale(1.03);
+}
