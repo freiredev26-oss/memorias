@@ -3,8 +3,10 @@ import { FaMapMarkedAlt } from "react-icons/fa"
 import Capy from "/src/assets/images/capi1.png"
 import Onda from "/src/assets/images/wave.png"
 import Ipe from "/src/assets/images/ipe.png"
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+    const navigate = useNavigate();
     return (
         <section className="hero">
 
@@ -17,9 +19,9 @@ export default function Hero() {
                     <p>Um tour interativo para conhecer os lugares, as pessoas e as memórias que fazem de Campo Grande um lugar especial.</p>
                 </div>
 
-                <button className="btn-explorar">
-                    <FaMapMarkedAlt/>
-                    Explorar Roteiros
+                <button className="btn-explorar" onClick={() => navigate("/roteiros")}>
+                    <FaMapMarkedAlt />
+                    Explorar roteiros
                 </button>
             </div>
 

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "obelisco",
+    "nome": "Obelisco do Centro",
+    "categoria": "Monumento Histórico",
+    "endereco": "Cruzamento da Av. Afonso Pena com a Rua Estevão Capriata",
+    "imagem": "/src/assets/images/obelisco_modal.png",
+    "audio": "/src/assets/audio/obelisco.mp3",
+    "resumo": "O grande marco inicial que homenageia o fundador da cidade.",
+    "historia": "Inaugurado in 1933, o Obelisco é um monumento que simboliza o progresso e homenageia os pioneiros da cidade, em especial o fundador José Antônio Pereira. Ele marca o centro histórico e é um dos pontos de referência mais tradicionais das caminhadas e desfiles cívicos de Campo Grande."
+  },
+  {
+    "id": "praca-araras",
+    "nome": "Praça das Araras",
+    "categoria": "Praça e Lazer",
+    "endereco": "Bairro Amambaí",
+    "imagem": "/src/assets/images/araras_modal.png",
+    "audio": "/src/assets/audio/araras.mp3",
+    "resumo": "Famosa pelas enormes estátuas de araras coloridas.",
+    "historia": "A Praça Cabeça de Boi ficou famosa mundialmente após receber o monumento das Araras, criado pelo artista plástico Cleir. Ele representa a fauna pantaneira que convive harmoniosamente no meio urbano da nossa capital, sendo um local adorado pelas crianças para tirar fotos e observar a natureza."
+  },
+  {
+    "id": "feira-central",
+    "nome": "Feira Central (Feirona)",
+    "categoria": "Cultura e Gastronomia",
+    "endereco": "Esplanada Ferroviária (Rua 14 de Julho)",
+    "imagem": "/src/assets/images/feirona_modal.png",
+    "audio": "/src/assets/audio/feirona.mp3",
+    "resumo": "O coração cultural da cidade, famoso pelo Sobá e pela herança de Okinawa.",
+    "historia": "A Feira Central é o ponto de encontro perfeito entre culturas. Trazida pelos imigrantes japoneses de Okinawa, a feira se tornou o lar do Sobá — prato considerado Patrimônio Cultural Imaterial da cidade. É o local ideal para estudar a imigração, o comércio ferroviário e a culinária sul-mato-grossense."
+  },
+  {
+    "id": "estacao-ferroviaria",
+    "nome": "Complexo Ferroviário da NOB",
+    "categoria": "Patrimônio Histórico",
+    "endereco": "Av. Calógeras",
+    "imagem": "/src/assets/images/estacao_modal.png",
+    "audio": "/src/assets/audio/estacao.mp3",
+    "resumo": "A antiga estrada de ferro que trouxe o desenvolvimento regional.",
+    "historia": "A chegada dos trilhos da Noroeste do Brasil (NOB) in 1914 transformou Campo Grande de uma pequena vila em um grande centro comercial. As casas de madeira dos ferroviários, a vila dos oficiais e a estação de passageiros hoje formam um complexo tombado pelo patrimônio histórico nacional, contando a história do desenvolvimento do nosso Estado."
+  }
+]
