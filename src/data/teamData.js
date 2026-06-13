@@ -13,7 +13,7 @@ export const teamMembers = [
     tag: "Programação & Auxílio",
     image: imgMauro,
     links: {
-      github: "https://github.com/seu-usuario-mauro"
+      github: "https://github.com/MauroDev2013"
     }
   },
     {
@@ -52,7 +52,7 @@ export const teamMembers = [
     tag: "Validação & História",
     image: imgLuis,
     links: {
-      github: "https://github.com/seu-usuario-luis",
+      github: "https://github.com/lfgranja",
       linkedin: "https://linkedin.com/in/seu-perfil-luis"
     }
   }

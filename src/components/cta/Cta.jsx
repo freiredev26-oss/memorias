@@ -3,6 +3,20 @@ import { IoCameraOutline } from "react-icons/io5"
 import { FaArrowRight } from "react-icons/fa"
 
 export default function CTA() {
+    const telefone = "5567984821570";
+    
+    const mensagem = "Olá! Gostaria de enviar uma contribuição para o projeto.\n\n" +
+                     "Local:\n" +
+                     "História:\n" +
+                     "Fotos:\n" +
+                     "Outros detalhes:";
+
+    const urlWhatsapp = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
+
+    const handleClique = () => {
+        window.open(urlWhatsapp, "_blank", "noopener,noreferrer");
+    };
+
     return (
         <section className="cta">
             <div className="cta-conteudo">
@@ -16,9 +30,9 @@ export default function CTA() {
                 </div>
             </div>
 
-            <button className="cta-botao">
+            <button className="cta-botao" onClick={handleClique}>
                 Enviar contribuição <FaArrowRight /> 
             </button>
         </section>
-    )
+    );
 }

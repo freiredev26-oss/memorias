@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
 import brasao from "/src/assets/images/brasao.png";
 import bandeira from "/src/assets/images/bandeira.png";
 
@@ -22,14 +22,13 @@ function Footer() {
           <h3>Navegação</h3>
           <div className="nav-links-grid">
             <div className="nav-col">
-              <a href="#inicio">Início</a>
-              <a href="#roteiros">Roteiros</a>
-              <a href="#mapa">Mapa</a>
+              <a href="/">Início</a>
+              <a href="/roteiros">Roteiros</a>
+              <a href="/atividades">Atividades</a>
             </div>
             <div className="nav-col">
-              <a href="#quiz">Quiz</a>
-              <a href="#sobre">Sobre</a>
-              <a href="#equipe">Equipe</a>
+              <a href="/sobre">Sobre</a>
+              <a href="/equipe">Equipe</a>
             </div>
           </div>
         </div>
@@ -37,9 +36,9 @@ function Footer() {
         <div className="footer-social">
           <h3>Siga-nos</h3>
           <div className="social-icons">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer"><FaYoutube /></a>
-            <a href="https://github.com" target="_blank" rel="noreferrer"><FaGithub /></a>
+            <a href="https://www.instagram.com/escolaabelfreire/" target="_blank" rel="noreferrer"><FaInstagram /></a>
+            <a href="https://www.facebook.com/escolaabel" target="_blank" rel="noreferrer"><FaFacebook /></a>
+            <a href="https://github.com/freiredev26-oss" target="_blank" rel="noreferrer"><FaGithub /></a>
           </div>
           <p className="texto">
             Desenvolvido com <span className="heart">🧡</span> por alunos do 8º ano B
