@@ -3,6 +3,7 @@ import Sobre from "./pages/sobre/Sobre"
 import NavBar from "../src/components/navbar/Navbar"
 import Home from "./pages/home/Home"
 import Atividades from "./pages/atividades/Atividades"
+import Equipe from "./pages/equipe/Equipe";
 import './App.css'
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/equipe" element={<Equipe />} />
           <Route path="/atividades" element={<Atividades />} />
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fontes/Montserrat-VariableFont_wght.ttf');
+}
+
+.equipe-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+.equipe-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.equipe-header h1 {
+  font-size: 2.5rem;
+  color: #002454;
+  font-weight: 800;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.equipe-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 25%;
+  width: 50%;
+  height: 4px;
+  background-color: #ffd000;
+  border-radius: 2px;
+}
+
+.equipe-header .subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  margin-top: 15px;
+}
+
+.equipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.membro-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef2f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.membro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 36, 84, 0.12);
+}
+
+.avatar-placeholder {
+  width: 125px;
+  height: 125px;
+  aspect-ratio: 1 / 1;  
+  flex-shrink: 0;       /* essa bagaça deixa o circulo redondo */
+  border-radius: 50%;
+  background: #f0f4f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 3px solid #1b853e;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.member-photo {
+  width: 130%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.default-avatar {
+  color: #b0c4de;
+}
+
+.card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.member-tag {
+  align-self: center;
+  background-color: #e6f7ed;
+  color: #1b853e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.membro-card h2 {
+  font-size: 1.4rem;
+  color: #002454;
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+.member-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-icon-student { color: #1b853e; font-size: 16px; }
+.card-icon-teacher { color: #023681; font-size: 16px; }
+
+.membro-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  flex-grow: 1; 
+}
+
+.member-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px dashed #e2e8f0;
+}
+
+.member-social-links a {
+  color: #002454;
+  font-size: 22px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.member-social-links a:hover {
+  color: #1b853e;
+  transform: scale(1.15);
+}
+
+.quem-somos-section {
+  background-color: #f4f7fa;
+  border-radius: 16px;
+  padding: 40px;
+  border-left: 6px solid #002454;
+  margin-bottom: 40px;
+}
+
+.quem-somos-section h2 {
+  font-size: 1.8rem;
+  color: #002454;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.quem-somos-section p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.quem-somos-section p:last-child {
+  margin-bottom: 0;
+}
+
+.project-repo-section {
+  text-align: center;
+  background: linear-gradient(135deg, #002454 0%, #023681 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.project-repo-section h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.project-repo-section p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.btn-github-repo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffd000;
+  color: #002454;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-github-repo:hover {
+  background-color: #ffe047;
+  transform: translateY(-2px);
+}
+
+.tech-section {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tech-section h4 {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #777;
+}
+
+.tech-icons svg {
+  font-size: 35px;
+}
+
+.icon-html { color: #e34c26; }
+.icon-css { color: #264de4; }
+.icon-js { color: #f0db4f; }
+.icon-react { color: #61dbfb; }
+
+@media (max-width: 768px) {
+  .equipe-header h1 { font-size: 2rem; }
+  .quem-somos-section, .project-repo-section { padding: 25px 20px; }
+  .tech-icons { gap: 20px; }
+}

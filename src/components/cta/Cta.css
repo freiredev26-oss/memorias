@@ -1,13 +1,17 @@
 .cta {
-    margin: 40px 80px;
-    background: linear-gradient(rgba(2, 54, 129, 0.9), rgba(1, 31, 72, 0.9));
-    color: white;
-    padding: 40px 50px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: sans-serif;
+  margin: 40px 0px;
+  background: linear-gradient(rgba(2, 54, 129, 0.9), rgba(1, 31, 72, 0.9)), 
+              url("/src/assets/images/city-linear1.png");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  color: white;
+  padding: 40px 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
 }
 
 .cta-conteudo {
