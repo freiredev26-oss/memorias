@@ -1,6 +1,6 @@
 import imgJulya from "../assets/images/julya2.png";
 import imgMauro from "../assets/images/mauro2.png";
-import imgRhyan from "../assets/images/rhyan.jpg";
+import imgRhyan from "../assets/images/rhyan1.jpeg";
 import imgGabi from "../assets/images/gabi1.jpg";
 import imgLuis from "../assets/images/luis.jpg";
 export const teamMembers = [
@@ -52,7 +52,7 @@ export const teamMembers = [
     image: imgLuis,
     links: {
       github: "https://github.com/lfgranja",
-      linkedin: "https://linkedin.com/in/seu-perfil-luis"
+      linkedin: "https://www.linkedin.com/in/lfmgranja/"
     }
   }
 ];
