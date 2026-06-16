@@ -95,7 +95,7 @@ icone-azul {
     padding: 20px 15px !important; 
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08) !important; 
     height: auto !important; 
-    width: 240px;
+    width: 100% !important;
     align-self: flex-start !important; 
   }
 

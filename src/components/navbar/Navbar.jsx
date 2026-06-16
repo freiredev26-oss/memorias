@@ -18,16 +18,20 @@ export default function Navbar() {
 
             <div className='nav-links'>
                 <NavLink to="/">
-                    <FaHome />Início
+                    <FaHome />
+                    <span>Início</span>
                 </NavLink>
                 <NavLink to="/atividades">
-                    <MdQuiz />Atividades
+                    <MdQuiz />
+                    <span>Atividades</span>
                 </NavLink>
                 <NavLink to="/sobre">
-                    <FaQuestionCircle />Sobre
+                    <FaQuestionCircle />
+                    <span>Sobre</span>
                 </NavLink>
                 <NavLink to="/equipe">
-                    <FaUsers />Equipe
+                    <FaUsers />
+                    <span>Equipe</span>
                 </NavLink>
             </div>
         </nav>

@@ -195,3 +195,86 @@ h2 {
   margin: 0;
   line-height: 1.3;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px!important; 
+    text-align: center !important;
+  }
+
+  .footer-container {
+    flex-direction: column !important;    
+    align-items: center !important;
+    gap: 24px !important; 
+    padding-bottom: 20px !important;
+  }
+
+  .footer-brand {
+    flex-direction: column !important;    
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .brand-text {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;       
+  }
+
+  .brand-text h2 {
+    font-size: 16px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .subtitle,
+  .school-info {
+    display: none !important;
+  }
+
+  .footer-nav {
+    display: none !important;
+  }
+
+  .footer-social {
+    width: 100% !important;
+    border-left: none !important;         
+    padding-left: 0 !important;          
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  .social-icons {
+    justify-content: center !important;   
+    font-size: 26px !important; 
+    margin-bottom: 4px !important;
+  }
+
+  .texto {
+    font-size: 12px !important;
+    color: #cbd5e1 !important;
+    max-width: 100% !important;          
+    line-height: 1.3 !important;
+  }
+
+  .baixo {
+    flex-direction: column !important; 
+    gap: 0 !important;
+    padding-top: 15px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important; 
+  }
+
+  .baixo p {
+    font-size: 10px !important;
+    color: #94a3b8 !important; 
+    text-align: center !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+  }
+
+  .bandeira,
+  .footer-qrcode-card {
+    display: none !important;            
+  }
+}

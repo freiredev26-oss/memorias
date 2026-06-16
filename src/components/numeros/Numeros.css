@@ -108,3 +108,81 @@
     width: auto;
     margin-left: 25px;
 }
+
+@media (max-width: 768px) {
+  .numeros {
+    flex-direction: column !important; 
+    padding: 20px 15px !important;     
+    margin: 25px 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .conteudo-numeros {
+    width: 100% !important;
+  }
+
+  .numeros h2 {
+    font-size: 18px !important;       
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+
+  .numeros-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .numero-card {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 15px 10px !important;
+    min-height: unset !important;      
+    height: auto !important;
+    gap: 10px !important;
+  }
+
+  .quadrado {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 12px !important;
+    font-size: 22px !important;        
+  }
+
+  .img-azul, 
+  .img-verde, 
+  .img-amarelo {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 22px !important;        
+  }
+
+  .quadrado img {
+    width: 55% !important;
+    height: auto !important;
+  }
+
+  .texto-cartao {
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .texto-cartao p {
+    font-size: 11px !important;       
+    line-height: 1.2 !important;
+  }
+
+  .texto-cartao h3 {
+    font-size: 13px !important;       
+    margin-top: 4px !important;
+    line-height: 1.2 !important;
+  }
+
+  .mapa-logo {
+    display: none !important;
+  }
+}
