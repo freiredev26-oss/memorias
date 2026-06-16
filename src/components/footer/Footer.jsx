@@ -1,9 +1,13 @@
 import "./Footer.css";
 import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import { QRCodeSVG } from "qrcode.react"; 
 import brasao from "/src/assets/images/brasao.png";
 import bandeira from "/src/assets/images/bandeira.png";
 
-function Footer() {
+export default function Footer() {
+  // const urlRoteiros = "https://memoriascg.com.br/roteiros";
+  const urlRoteiros = "https://www.instagram.com/escolaabelfreire/";
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -47,7 +51,13 @@ function Footer() {
 
         <div className="footer-qrcode-card">
           <div className="qrcode-placeholder">
-            <div className="qr-box"></div> 
+            <QRCodeSVG 
+              value={urlRoteiros} 
+              size={65}           
+              bgColor={"#FFFFFF"}  
+              fgColor={"#00225c"}  
+              level={"M"}          
+            />
           </div>
           <p>Escaneie e comece seu roteiro agora!</p>
         </div>
@@ -61,5 +71,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

@@ -1,9 +1,8 @@
-import imgJulya from "../assets/images/julya1.png";
-import imgMauro from "../assets/images/mauro.jpg";
+import imgJulya from "../assets/images/julya2.png";
+import imgMauro from "../assets/images/mauro2.png";
 import imgRhyan from "../assets/images/rhyan.jpg";
 import imgGabi from "../assets/images/gabi.jpg";
 import imgLuis from "../assets/images/luis.jpg";
-
 export const teamMembers = [
   {
     nome: "Mauro",

@@ -1,89 +1,102 @@
-import roteirosData from "/src/data/roteirosData.json";
-import { FaMapMarkerAlt, FaBookOpen, FaTimes, FaHeadphones } from "react-icons/fa";
-import Footer from "/src/components/footer/Footer";
 import { useState } from "react";
+import { MapContainer, TileLayer, Marker, Tooltip } from "react-leaflet";
+import { renderToString } from "react-dom/server";
+import { FaMapMarkerAlt, FaFish, FaTree, FaChurch, FaShieldAlt, FaBuilding } from "react-icons/fa";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+
+import roteirosData from "/src/data/roteirosData.json";
+import ModalHistorico from "./ModalHistorico";
+import Footer from "/src/components/footer/Footer";
 import "./Roteiros.css";
+
+
+const gerarMarcadorTematico = (ComponenteIcone, corDeFundo) => {
+  const iconeHtml = renderToString(<ComponenteIcone style={{ color: "#ffffff", fontSize: "14px" }} />);
+  
+  return new L.DivIcon({
+    html: `
+      <div class="pino-mapa-wrapper">
+        <div class="pino-gota" style="background-color: ${corDeFundo};">
+          <div class="pino-icone-interno">${iconeHtml}</div>
+        </div>
+        <div class="pino-sombra"></div>
+      </div>
+    `,
+    className: "marcador-customizado-leaflet",
+    iconSize: [36, 46],
+    iconAnchor: [18, 46]
+  });
+};
+
+
+const mapeamentoDeCategorias = {
+  aquario: gerarMarcadorTematico(FaFish, "#0284c7"),         
+  parque: gerarMarcadorTematico(FaTree, "#16a34a"),          
+  praca_papa: gerarMarcadorTematico(FaChurch, "#db2777"),    
+  quartel: gerarMarcadorTematico(FaShieldAlt, "#15803d"),     
+  praca: gerarMarcadorTematico(FaTree, "#22c55e"),           
+  cultura: gerarMarcadorTematico(FaBuilding, "#9333ea"),     
+  monumento: gerarMarcadorTematico(FaMapMarkerAlt, "#ea580c") 
+};
 
 export default function Roteiros() {
   const [localSelecionado, setLocalSelecionado] = useState(null);
+  const centroCampoGrande = [-20.46401, -54.61629]; 
 
   return (
     <>
-        <div className="pagina-roteiros animate-fade">
-            <header className="roteiros-header">
-                <h1>Roteiros Históricos</h1>
-                <p>Explore os monumentos, praças e locais que guardam a memória e a identidade de Campo Grande.</p>
-            </header>
+      <div className="pagina-roteiros animate-fade">
+        <header className="roteiros-header">
+          <h1>Mapa Cultural e Histórico</h1>
+          <p>Explore os patrimônios de Campo Grande. Passe o mouse sobre os pinos para ler as legendas e clique para abrir as mídias.</p>
+        </header>
 
-            <div className="grid-roteiros">
-                {roteirosData.map((local) => (
-                <div key={local.id} className="card-roteiro">
-                    <div className="card-tag">{local.categoria}</div>
-                    <div className="card-body">
-                    <h3>{local.nome}</h3>
-                    <p className="local-endereco">
-                        <FaMapMarkerAlt /> {local.endereco}
-                    </p>
-                    <p className="local-resumo">{local.resumo}</p>
-                    <button 
-                        className="btn-ler-historia" 
-                        onClick={() => setLocalSelecionado(local)}
-                    >
-                        <FaBookOpen /> Conhecer História
-                    </button>
+        <div className="mapa-container-box">
+          <MapContainer 
+            center={centroCampoGrande} 
+            zoom={13} 
+            scrollWheelZoom={true}
+            className="mapa-elemento"
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+
+            {roteirosData.map((local) => {
+              const iconeMarcador = mapeamentoDeCategorias[local.categoria] || mapeamentoDeCategorias.monumento;
+              
+              return (
+                <Marker 
+                  key={local.id} 
+                  position={local.coordenadas}
+                  icon={iconeMarcador}
+                  eventHandlers={{
+                    click: () => setLocalSelecionado(local)
+                  }}
+                >
+                  
+                  <Tooltip direction="top" offset={[0, -40]} opacity={1}>
+                    <div className="mapa-tooltip-legenda">
+                      <strong>{local.nome}</strong>
+                      <span>Ver arquivos de mídia</span>
                     </div>
-                </div>
-                ))}
-            </div>
-
-            {localSelecionado && (
-                <div className="modal-overlay" onClick={() => setLocalSelecionado(null)}>
-                <div className="modal-historico" onClick={(e) => e.stopPropagation()}>
-                    
-                    <button className="btn-fechar-modal" onClick={() => setLocalSelecionado(null)}>
-                    <FaTimes />
-                    </button>
-
-                    <div className="modal-banner-container">
-                    <img 
-                        src={localSelecionado.imagem} 
-                        alt={localSelecionado.nome} 
-                        className="modal-banner-img"
-                        onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=600";
-                        }}
-                    />
-                    </div>
-
-                    <div className="modal-conteudo-body">
-                    <span className="modal-tag">{localSelecionado.categoria}</span>
-                    <h2>{localSelecionado.nome}</h2>
-                    <p className="modal-endereco"><FaMapMarkerAlt /> {localSelecionado.endereco}</p>
-                    
-                    <div className="container-audioguia">
-                        <div className="audioguia-info">
-                        <FaHeadphones className="icon-fone" />
-                        <div>
-                            <h5>Audioguia Disponível</h5>
-                            <p>Ouça a história narrada do monumento</p>
-                        </div>
-                        </div>
-                        <audio controls className="player-audio-nativo">
-                        <source src={localSelecionado.audio} type="audio/mpeg" />
-                        Seu navegador não suporta a reprodução de áudio.
-                        </audio>
-                    </div>
-
-                    <div className="modal-texto">
-                        <p>{localSelecionado.historia}</p>
-                    </div>
-                    </div>
-
-                </div>
-                </div>
-            )}
+                  </Tooltip>
+                </Marker>
+              );
+            })}
+          </MapContainer>
         </div>
-        <Footer />
+
+        {localSelecionado && (
+          <ModalHistorico 
+            local={localSelecionado} 
+            onClose={() => setLocalSelecionado(null)} 
+          />
+        )}
+      </div>
+      <Footer />
     </>
   );
 }
