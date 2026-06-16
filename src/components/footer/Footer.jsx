@@ -6,7 +6,7 @@ import bandeira from "/src/assets/images/bandeira.png";
 
 export default function Footer() {
   // const urlRoteiros = "https://memoriascg.com.br/roteiros";
-  const urlRoteiros = "https://www.instagram.com/escolaabelfreire/";
+  const urlRoteiros = "https://memorias-puce.vercel.app/";
 
   return (
     <footer className="footer">

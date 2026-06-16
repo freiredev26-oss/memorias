@@ -6,12 +6,12 @@
     "coordenadas": [ -20.4495386,-54.6439387],
     "endereco": "Av. dos Crisântemos, Vila Sobrinho",
     "imagens": [
-      "/src/assets/images/locais/papa.jpg",
-      "/src/assets/images/locais/praca.jpg"
+      "images/locais/papa.jpg",
+      "images/locais/praca.jpg"
     ],
     "resumo": "Palco do memorável encontro com o Papa João Paulo II em 1991.",
     "historia": "Originalmente chamada de Praça da Imaculada Conceição, o local ficou eternizado após a visita histórica do Papa João Paulo II a Campo Grande em 1991. Uma missa campal para mais de 100 mil pessoas foi rezada no local, onde hoje existe o monumento e o memorial que relembram a santificação do espaço e a marcante passagem papal pela capital de Mato Grosso do Sul.",
-    "audio": "/src/assets/audio/praca-papa.mp3"
+    "audio": "audio/praca-papa.mp3"
   },
   {
     "id": 2,
@@ -20,13 +20,13 @@
     "coordenadas": [-20.4560132,-54.5761006],
     "endereco": "Av. Afonso Pena, Parque das Nações Indígenas",
     "imagens": [
-      "/src/assets/images/locais/bioparque.jpeg",
-      "/src/assets/images/locais/bioparque2.webp",
-      "/src/assets/images/locais/bioparque3.webp"
+      "images/locais/bioparque.jpeg",
+      "images/locais/bioparque2.webp",
+      "images/locais/bioparque3.webp"
     ],
     "resumo": "O maior aquário de água doce do mundo e centro de pesquisa da biodiversidade.",
     "historia": "O Bioparque Pantanal é um complexo voltado para o conhecimento e preservação do ecossistema pantaneiro. Com dezenas de tanques e milhões de litros de água, o espaço abriga centenas de espécies de peixes, répteis e anfíbios, funcionando como um hub de turismo, educação ambiental e pesquisa científica de relevância internacional.",
-    "audio": "/src/assets/audio/bioparque.mp3"
+    "audio": "audio/bioparque.mp3"
   },
   {
     "id": 3,
@@ -35,13 +35,13 @@
     "coordenadas": [-20.4687, -54.6588],
     "endereco": "Av. Duque de Caxias, s/n - Vila Serradinho",
     "imagens": [
-      "/src/assets/images/locais/aeroporto.jpg",
-      "/src/assets/images/locais/aeroporto1.webp",
-      "/src/assets/images/locais/aeoporto.webp"
+      "images/locais/aeroporto.jpg",
+      "images/locais/aeroporto1.webp",
+      "images/locais/aeoporto.webp"
     ],
     "resumo": "A principal porta de entrada aérea da capital sul-mato-grossense.",
     "historia": "Operando desde a década de 1950, o Aeroporto Internacional de Campo Grande (Antônio João) desempenha um papel estratégico na integração do Centro-Oeste e no acesso ao turismo do Pantanal e de Bonito. É um ponto histórico de fluxo comercial, militar e civil crucial para o desenvolvimento do estado.",
-    "audio": "/src/assets/audio/aeroporto.mp3"
+    "audio": "audio/aeroporto.mp3"
   },
   {
     "id": 4,
@@ -50,13 +50,13 @@
     "coordenadas": [-20.5045, -54.6188],
     "endereco": "Av. Sen. Filinto Müller- Pioneiros",
     "imagens": [
-      "/src/assets/images/locais/lago.jpeg",
-      "/src/assets/images/locais/lago2.jpg",
-      "/src/assets/images/locais/lago3.webp"
+      "images/locais/lago.jpeg",
+      "images/locais/lago2.jpg",
+      "images/locais/lago3.webp"
     ],
     "resumo": "Famoso cartão-postal urbano integrado ao campus da UFMS.",
     "historia": "Localizado nas dependências da Universidade Federal de Mato Grosso do Sul, o Lago do Amor formou-se a partir do represamento do Córrego Bandeira. É um ponto turístico icônico famoso pela observação de capivaras, jacarés e pássaros, sendo um símbolo de convivência harmônica entre a biodiversidade nativa e o ambiente urbano.",
-    "audio": "/src/assets/audio/lago-amor.mp3"
+    "audio": "audio/lago-amor.mp3"
   },
   {
     "id": 5,
@@ -65,16 +65,16 @@
     "coordenadas": [-20.5148, -54.6264],
     "endereco": "Av. Sen. Filinto Müller, 2700 - Pioneiros",
     "imagens": [
-      "/src/assets/images/locais/imagem.jpeg",
-      "/src/assets/images/locais/imagem1.webp",
-      "/src/assets/images/locais/imagem2.jpeg",
-      "/src/assets/images/locais/imagem3.jpeg",
-      "/src/assets/images/locais/imagem4.jpeg",
-      "/src/assets/images/locais/imagem5.jpeg"
+      "images/locais/imagem.jpeg",
+      "images/locais/imagem1.webp",
+      "images/locais/imagem2.jpeg",
+      "images/locais/imagem3.jpeg",
+      "images/locais/imagem4.jpeg",
+      "images/locais/imagem5.jpeg"
     ],
     "resumo": "Grande reduto da tradição esportiva e cultural da imigração japonesa.",
     "historia": "Localizado na região do bairro Pioneiros, o campo e a associação Nipo-Brasileira são referências nacionais na prática do beisebol e softbol. O espaço celebra a forte influência da colônia japonesa trazida pelos imigrantes de Okinawa, mantendo vivas as competições, a disciplina esportiva e as festividades tradicionais na capital.",
-    "audio": "/src/assets/images/audio/audiofinalACB.mp3"
+    "audio": "images/audio/audiofinalACB.mp3"
   },
   {
     "id": 6,
@@ -83,12 +83,12 @@
     "coordenadas": [-20.4639, -54.6315],
     "endereco": "No cruzamento com a Rua Dom Aquino, Praça Cuiabá, S/N - Amambai",
     "imagens": [
-      "/src/assets/images/locais/araras.webp",
-      "/src/assets/images/locais/araras1.webp"
+      "images/locais/araras.webp",
+      "images/locais/araras1.webp"
     ],
     "resumo": "Lar das monumentais esculturas das araras esculpidas pelo artista Cleir.",
     "historia": "Projetada na antiga Praça Marquês de Erval, ganhou forte apelo popular após a instalação das gigantescas esculturas de araras do artista plástico Cleir. O monumento serve como um alerta ecológico contínuo para a preservação das aves do Cerrado que colorem o céu da cidade diariamente.",
-    "audio": "/src/assets/audio/araras.mp3"
+    "audio": "audio/araras.mp3"
   },
   {
     "id": 7,
@@ -97,12 +97,12 @@
     "coordenadas": [-20.4622, -54.6317],
     "endereco": "Av. Duque de Caxias, 24 - Vila Planalto",
     "imagens": [
-      "/src/assets/images/locais/cabeca-boi.jpg",
-      "/src/assets/images/locais/cabeca-boi2.png"
+      "images/locais/cabeca-boi.jpg",
+      "images/locais/cabeca-boi2.png"
     ],
     "resumo": "Histórico ponto urbano que remete às antigas comitivas de gado.",
     "historia": "O cruzamento e a praça ganharam o apelido popular de 'Cabeça de Boi' devido a um antigo comércio da região que ostentava uma carcaça de boi na fachada, marcando a transição urbana da antiga zona de passagem de boiadas e tropas rurais que cortavam a jovem Campo Grande rumo às feiras de gado.",
-    "audio": "/src/assets/audio/cabeca-boi.mp3"
+    "audio": "audio/cabeca-boi.mp3"
   },
   {
     "id": 8,
@@ -111,12 +111,12 @@
     "coordenadas": [-20.4523, -54.6195],
     "endereco": "Rua 14 de Julho, 3351 - Centro",
     "imagens": [
-      "/src/assets/images/locais/feirona.jpg",
-      "/src/assets/images/locais/feirona1.png"
+      "images/locais/feirona.jpg",
+      "images/locais/feirona1.png"
     ],
     "resumo": "Patrimônio cultural gastronômico, famosa pelo sobá tradicional.",
     "historia": "A Feira Central, hoje instalada na esplanada ferroviária, é o coração gastronômico noturno da cidade. Introduzida pela colônia japonesa, popularizou o Sobá (prato tombado como patrimônio cultural imaterial de Campo Grande), além de comercializar espetinhos, artesanatos e produtos hortifrúti tradicionais da região.",
-    "audio": "/src/assets/audio/feirona.mp3"
+    "audio": "audio/feirona.mp3"
   },
   {
     "id": 9,
@@ -125,13 +125,13 @@
     "coordenadas": [-20.4667, -54.6201],
     "endereco": "Rua 7 de Setembro, 65 - Centro",
     "imagens": [
-      "/src/assets/images/locais/mercadao.jpg",
-      "/src/assets/images/locais/mercadao1.webp",
-      "/src/assets/images/locais/mercadao3.jpg"
+      "images/locais/mercadao.jpg",
+      "images/locais/mercadao1.webp",
+      "images/locais/mercadao3.jpg"
     ],
     "resumo": "Tradicional centro de comércio popular aberto na década de 1950.",
     "historia": "Inaugurado oficialmente em 1958, o Mercadão Municipal Antônio Valente é o ponto de encontro perfeito para encontrar ervas de tereré, queijos de comitiva, doces caseiros, carnes e condimentos. Ele preserva a essência comercial e o intercâmbio de culturas rurais, indígenas e urbanas no centro.",
-    "audio": "/src/assets/audio/mercadao.mp3"
+    "audio": "audio/mercadao.mp3"
   },
   {
     "id": 10,
@@ -140,13 +140,13 @@
     "coordenadas": [-20.4644, -54.6202],
     "endereco": "Av. Noroeste com Afonso Pena- Centro",
     "imagens": [
-      "/src/assets/images/locais/moradaDosBais.jpeg",
-      "/src/assets/images/locais/moradaDosBais.webp",
-      "/src/assets/images/locais/moradadosbaisantiga.jpg"
+      "images/locais/moradaDosBais.jpeg",
+      "images/locais/moradaDosBais.webp",
+      "images/locais/moradadosbaisantiga.jpg"
     ],
     "resumo": "Um dos primeiros sobrados de alvenaria da cidade, rico em arte e memória.",
     "historia": "Construída pela família do imigrante Bernardo Franco Baís entre 1913 e 1918, a Morada dos Baís testemunhou o crescimento da malha ferroviária. Foi residência e ateliê da vanguardista artista plástica e mística Lídia Baís, cujos afrescos e paredes originais estão protegidos pelo tombamento histórico.",
-    "audio": "/src/assets/audio/morada-bais.mp3"
+    "audio": "audio/morada-bais.mp3"
   },
   {
     "id": 11,
@@ -155,12 +155,12 @@
     "coordenadas": [-20.4621, -54.6198],
     "endereco": "Av. Calógeras, 2309 - Centro",
     "imagens": [
-      "/src/assets/images/locais/correios.webp",
-      "/src/assets/images/locais/correios.jpeg"
+      "images/locais/correios.webp",
+      "images/locais/correios.jpeg"
     ],
     "resumo": "Marco da arquitetura civil e das comunicações de Mato Grosso unificado.",
     "historia": "O edifício histórico dos Correios e Telégrafos na Avenida Calógeras reflete o período áureo de expansão federal no início do século XX. O local centralizava todo o fluxo de correspondências, telégrafos e ordens comerciais que sustentavam o desenvolvimento mercantil do sul do antigo Mato Grosso.",
-    "audio": "/src/assets/audio/correios.mp3"
+    "audio": "audio/correios.mp3"
   },
   {
     "id": 12,
@@ -169,14 +169,14 @@
     "coordenadas": [-20.4467, -54.6258],
     "endereco": "Av. Noroeste, Bairro Cabreúva",
     "imagens": [
-      "/src/assets/images/locais/orla.jpg",
-      "/src/assets/images/locais/orla1.jpeg",
-      "/src/assets/images/locais/orla3.png",
-      "/src/assets/images/locais/orla4.png"
+      "images/locais/orla.jpg",
+      "images/locais/orla1.jpeg",
+      "images/locais/orla3.png",
+      "images/locais/orla4.png"
     ],
     "resumo": "Parque linear construído sobre os antigos trilhos da ferrovia Noroeste do Brasil.",
     "historia": "A Orla Morena é um belíssimo projeto de revitalização urbana que transformou a antiga faixa de trilhos da ferrovia NOB em um parque linear voltado ao lazer. Abriga pistas de caminhada, ciclovias, academias ao ar livre e anfiteatros, preservando o traçado histórico da locomotiva que fundou a identidade moderna da cidade.",
-    "audio": "/src/assets/audio/orla-morena.mp3"
+    "audio": "audio/orla-morena.mp3"
   },
   {
     "id": 13,
@@ -185,13 +185,13 @@
     "coordenadas": [-20.4632, -54.6119],
     "endereco": "Entre a Av. Afonso Pena e Rua Padre João Crippa - Centro",
     "imagens": [
-      "/src/assets/images/locais/radio.jpeg",
-      "/src/assets/images/locais/radio.webp",
-      "/src/assets/images/locais/radio1.jpeg"
+      "images/locais/radio.jpeg",
+      "images/locais/radio.webp",
+      "images/locais/radio1.jpeg"
     ],
     "resumo": "Batizada como Praça da República, é um dos palcos cívicos mais tradicionais.",
     "historia": "Oficialmente Praça da República, o local ficou popularmente conhecido como Praça do Rádio devido à proximidade com a antiga sede do Rádio Clube. Possui uma concha acústica clássica e monumentos históricos, sendo tradicionalmente usada para manifestações populares, feiras de artesanato e eventos culturais públicos.",
-    "audio": "/src/assets/audio/praca-radio.mp3"
+    "audio": "audio/praca-radio.mp3"
   },
   {
     "id": 14,
@@ -200,13 +200,13 @@
     "coordenadas": [-20.4571, -54.5801],
     "endereco": "Av. Afonso Pena, s/n - Altos da Afonso Pena",
     "imagens": [
-      "/src/assets/images/locais/parqueNacoes.jpg",
-      "/src/assets/images/locais/parqueNacoes.png",
-      "/src/assets/images/locais/parqueNacoes1.jpg"
+      "images/locais/parqueNacoes.jpg",
+      "images/locais/parqueNacoes.png",
+      "images/locais/parqueNacoes1.jpg"
     ],
     "resumo": "Um dos maiores parques urbanos do país, integrando lazer e preservação.",
     "historia": "Com mais de 119 hectares, o Parque das Nações Indígenas foi inaugurado na década de 1990 para conter as cheias do córrego Prosa e oferecer uma vasta área de conservação e lazer. Seu nome homenageia as etnias indígenas originais do estado, como os Terena, Guarani e Kadiwéu, cujos monumentos estão erguidos em suas entradas.",
-    "audio": "/src/assets/audio/parque-nacoes.mp3"
+    "audio": "audio/parque-nacoes.mp3"
   },
   {
     "id": 15,
@@ -215,14 +215,14 @@
     "coordenadas": [-20.4551, -54.5677],
     "endereco": "Av. Afonso Pena, 7000 - Parque das Nações Indígenas",
     "imagens": [
-      "/src/assets/images/locais/museuBD.jpg",
-      "/src/assets/images/locais/museuDB.jpg",
-      "/src/assets/images/locais/museuDB.webp",
-      "/src/assets/images/locais/museuDB1.jpg"
+      "images/locais/museuBD.jpg",
+      "images/locais/museuDB.jpg",
+      "images/locais/museuDB.webp",
+      "images/locais/museuDB1.jpg"
     ],
     "resumo": "Famoso Museu do Índio, guardião de acervos etnográficos e de taxidermia.",
     "historia": "Criado por missionários salesianos na década de 1950, o museu possui reconhecimento mundial por sua rica coleção etnográfica de povos indígenas (Bororo, Xavante, Karajá) e por seu impressionante acervo de zoologia e taxidermia (animais empalhados), retratando a biodiversidade do Cerrado e do Pantanal.",
-    "audio": "/src/assets/audio/dom-bosco.mp3"
+    "audio": "audio/dom-bosco.mp3"
   },
   {
     "id": 16,
@@ -231,12 +231,12 @@
     "coordenadas": [-20.4633, -54.6092],
     "endereco": "Cruzamento da Av. Afonso Pena com a Rua José Antônio",
     "imagens": [
-      "/src/assets/images/locais/obelisco1.jpg",
-      "/src/assets/images/locais/obelisco.jpg"
+      "images/locais/obelisco1.jpg",
+      "images/locais/obelisco.jpg"
     ],
     "resumo": "O primeiro monumento oficial erguido na capital em 1933.",
     "historia": "Projetado pelo engenheiro Newton Cavalcanti em 1933, o Obelisco foi erguido para saudar a memória do fundador José Antônio Pereira e marcar o espírito progressista da cidade. Declarado Patrimônio Histórico Municipal, representa o centro geométrico e simbólico das conquistas pioneiras de Campo Grande.",
-    "audio": "/src/assets/audio/obelisco.mp3"
+    "audio": "audio/obelisco.mp3"
   },
   {
     "id": 17,
@@ -245,11 +245,11 @@
     "coordenadas": [-20.4624, -54.6113],
     "endereco": "Av. Afonso Pena - Praça do Rádio",
     "imagens": [
-      "/src/assets/images/locais/culturajaponesa.webp"
+      "images/locais/culturajaponesa.webp"
     ],
     "resumo": "Réplica de uma casa tradicional japonesa que celebra o centenário da colônia.",
     "historia": "Localizado na Esplanada Ferroviária, este monumento possui a forma de uma habitação típica da ilha de Okinawa. Ele celebra o desembarque das primeiras famílias japonesas em 1914 que vieram trabalhar na construção dos trilhos da ferrovia e acabaram estruturando a base cinturão hortifrúti e comercial da cidade.",
-    "audio": "/src/assets/audio/imigracao-japonesa.mp3"
+    "audio": "audio/imigracao-japonesa.mp3"
   },
   {
     "id": 18,
@@ -258,11 +258,11 @@
     "coordenadas": [-20.4558, -54.5743],
     "endereco": "Parque das Nações Indígenas, Altos da Afonso Pena",
     "imagens": [
-      "/src/assets/images/locais/zarabatana.jpeg"
+      "images/locais/zarabatana.jpeg"
     ],
     "resumo": "Escultura icônica que exalta as técnicas de caça nativas indígenas.",
     "historia": "A gigantesca estrutura de concreto erguida no interior do Parque das Nações Indígenas mimetiza uma Zarabatana apontada para o céu. Projetada pelo arquiteto Roberto Montezuma, a obra homenageia a ancestralidade, a engenhosidade e a rica herança cultural dos povos originários que habitavam Mato Grosso do Sul antes da colonização.",
-    "audio": "/src/assets/audio/zarabatana.mp3"
+    "audio": "audio/zarabatana.mp3"
   },
   {
     "id": 19,
@@ -271,12 +271,12 @@
     "coordenadas": [-20.4708, -54.6240],
     "endereco": "Av. Presidente Ernesto Geisel - Amambai",
     "imagens": [
-      "/src/assets/images/locais/carroBoi.jpg",
-      "/src/assets/images/locais/carroBoi.webp"
+      "images/locais/carroBoi.jpg",
+      "images/locais/carroBoi.webp"
     ],
     "resumo": "Escultura em bronze instalada no marco zero do antigo Córrego Prosa.",
     "historia": "Inaugurado em 1996 e esculpido pela artista Neide Ono, o monumento reproduz um Carro de Boi, o principal meio de transporte rústico utilizado pelos pioneiros mineiros para trazer mudanças e suprimentos nas longas rotas de poeira até o arraial de Santo Antônio de Campo Grande.",
-    "audio": "/src/assets/audio/carro-boi.mp3"
+    "audio": "audio/carro-boi.mp3"
   },
   {
     "id": 20,
@@ -285,13 +285,13 @@
     "coordenadas": [-20.4646, -54.6192],
     "endereco": "Av. Calógeras, 2056-2092 - Centro",
     "imagens": [
-      "/src/assets/images/locais/relogio.jpeg",
-      "/src/assets/images/locais/relogio.webp",
-      "/src/assets/images/locais/relogio.jpg"
+      "images/locais/relogio.jpeg",
+      "images/locais/relogio.webp",
+      "images/locais/relogio.jpg"
     ],
     "resumo": "O grande termômetro social da antiga Rua 14 de Julho.",
     "historia": "O monumento original foi erguido em 1933 no coração do comércio da cidade, servindo como ponto de comícios políticos e encontros da boemia. Demolido em 1970 em prol da expansão do tráfego, uma réplica monumental idêntica foi erguida na década de 1990 para resgatar a memória e a identidade afetiva da região central.",
-    "audio": "/src/assets/audio/relogio.mp3"
+    "audio": "audio/relogio.mp3"
   },
   {
     "id": 21,
@@ -300,13 +300,13 @@
     "coordenadas": [-20.4618, -54.6594],
     "endereco": "Praça s/n, em frente ao Aeroporto Internacional",
     "imagens": [
-      "/src/assets/images/locais/tuiuiu.jpg",
-      "/src/assets/images/locais/tiuiu.jpg",
-      "/src/assets/images/locais/tiuiu.png"
+      "images/locais/tuiuiu.jpg",
+      "images/locais/tiuiu.jpg",
+      "images/locais/tiuiu.png"
     ],
     "resumo": "Três grandes esculturas da ave-símbolo do Pantanal dando as boas-vindas à cidade.",
     "historia": "Criadas pelo mestre das esculturas regionais Cleir, as estátuas gigantes de tuiuiús em posição de decolagem foram instaladas na praça em frente ao aeroporto. Elas simbolizam a conexão imediata da capital com a natureza do Pantanal, servindo como o primeiro impacto visual inesquecível para os turistas.",
-    "audio": "/src/assets/audio/tuiuius.mp3"
+    "audio": "audio/tuiuius.mp3"
   },
   {
     "id": 22,
@@ -315,13 +315,13 @@
     "coordenadas": [-20.4544, -54.5808],
     "endereco": "Parque das Nações Indígenas, próximo ao lago",
     "imagens": [
-      "/src/assets/images/locais/cavaleiros.jpeg",
-      "/src/assets/images/locais/cavaleiros.jpg",
-      "/src/assets/images/locais/cavaleiros1.jpeg"
+      "images/locais/cavaleiros.jpeg",
+      "images/locais/cavaleiros.jpg",
+      "images/locais/cavaleiros1.jpeg"
     ],
     "resumo": "Majestosa escultura que eterniza os temidos índios cavaleiros do Pantanal.",
     "historia": "A obra de arte esculpida em resina e pó de mármore pelo artista Anor Mendes representa os guerreiros da etnia Kadiwéu (Guaicurus), famosos por sua incomparável destreza montando cavalos selvagens. Foram fundamentais na defesa das fronteiras brasileiras durante a Guerra do Paraguai.",
-    "audio": "/src/assets/audio/guaicurus.mp3"
+    "audio": "audio/guaicurus.mp3"
   },
   {
     "id": 23,
@@ -330,11 +330,11 @@
     "coordenadas": [-20.5044, -54.6065],
     "endereco": "Avenida Gury Marques, rotatória da Coca",
     "imagens": [
-      "/src/assets/images/locais/aprendiz.jpeg"
+      "images/locais/aprendiz.jpeg"
     ],
     "resumo": "Escultura dedicada à valorização da educação e da formação profissional técnica.",
     "historia": "A estátua foi erguida na principal avenida comercial da cidade para prestar homenagem à força de trabalho jovem e ao papel transformador do aprendizado técnico profissionalizante. Simboliza o esforço diário das novas gerações para impulsionar a economia e a infraestrutura urbana sul-mato-grossense.",
-    "audio": "/src/assets/audio/aprendiz.mp3"
+    "audio": "audio/aprendiz.mp3"
   },
   {
     "id": 24,
@@ -343,12 +343,12 @@
     "coordenadas": [-20.4638, -54.6141],
     "endereco": "Canteiro Central da Av. Afonso Pena, esquina com a Rua Rui Barbosa",
     "imagens": [
-      "/src/assets/images/locais/manuel.jpeg",
-      "/src/assets/images/locais/mauel.webp"
+      "images/locais/manuel.jpeg",
+      "images/locais/mauel.webp"
     ],
     "resumo": "Monumento em bronze do poeta maior das miudezas e do Pantanal.",
     "historia": "Inaugurada em 2017 para celebrar o centenário do nascimento do poeta, a estátua em tamanho real esculpida por Ique traz Manoel de Barros sorridente, sentado em seu clássico sofá acompanhado de seu caderno de anotações, um passarinho e caramujos. Tornou-se um dos pontos interativos e literários mais fotografados do centro.",
-    "audio": "/src/assets/audio/manoel-barros.mp3"
+    "audio": "audio/manoel-barros.mp3"
   },
   {
     "id": 25,
@@ -357,12 +357,12 @@
     "coordenadas": [-20.4571, -54.6208],
     "endereco": "Cruzamento da Av. Mato Grosso com a Av. Calógeras",
     "imagens": [
-      "/src/assets/images/locais/mariaf.jpeg.jpeg",
-      "/src/assets/images/locais/mariaf.jpeg"
+      "images/locais/mariaf.jpeg.jpeg",
+      "images/locais/mariaf.jpeg"
     ],
     "resumo": "Uma locomotiva suspensa de 5 metros que reconta o nascimento ferroviário da capital.",
     "historia": "Inaugurado em 2018, o monumento exibe uma autêntica locomotiva a vapor suspensa sobre trilhos elevados. O monumento marca a exata região da antiga esplanada ferroviária e serve para homenagear os operários e pioneiros que trabalharam na Estrada de Ferro Noroeste do Brasil (NOB), vetor máximo do povoamento e progresso econômico de Campo Grande.",
-    "audio": "/src/assets/audio/maria-fumaca.mp3"
+    "audio": "audio/maria-fumaca.mp3"
   },
   {
     "id": 26,
@@ -371,11 +371,11 @@
     "coordenadas": [-20.4650, -54.6400],
     "endereco": "Av. Duque de Caxias, 1628 - Amambaí",
     "imagens": [
-      "/src/assets/images/locais/cmo.jpeg",
-      "/src/assets/images/locais/cmo.webp"
+      "images/locais/cmo.jpeg",
+      "images/locais/cmo.webp"
     ],
     "resumo": "Sede estratégica da segurança terrestre das fronteiras do Centro-Oeste.",
     "historia": "O Comando Militar do Oeste (CMO) coordena as ações do Exército Brasileiro nos estados de Mato Grosso e Mato Grosso do Sul. Instalado no imponente complexo da Avenida Duque de Caxias, o quartel possui um papel histórico na infraestrutura, mapeamento geográfico e pacificação civil de toda a faixa de fronteira internacional da região.",
-    "audio": "/src/assets/audio/cmo.mp3"
+    "audio": "audio/cmo.mp3"
   }
 ]
