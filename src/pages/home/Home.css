@@ -74,3 +74,61 @@
   padding: 0;
   margin-bottom: 30px;
 }
+
+/* @media (max-width: 768px) {
+  .routes-section {
+    padding: 30px 15px !important; 
+    box-sizing: border-box !important;
+  }
+
+  .section-header {
+    margin-bottom: 20px !important;
+    gap: 10px !important; 
+  }
+
+  .section-title h2 {
+    font-size: 20px !important; 
+    white-space: nowrap !important;
+  }
+
+  .carousel-nav-buttons {
+    display: none;
+  }
+
+  .routes-grid .route-card {
+    width: 220px !important;  
+    height: 190px !important;
+  }
+} */
+
+@media (max-width: 768px) {
+  .routes-section {
+    padding: 30px 15px !important; 
+    box-sizing: border-box !important;
+  }
+
+  .section-header {
+    margin-bottom: 20px !important;
+    gap: 10px !important; 
+  }
+
+  .section-title h2 {
+    font-size: 20px !important; 
+    white-space: nowrap !important;
+  }
+
+  .carousel-nav-buttons {
+    display: none;
+  }
+
+  .routes-grid .route-card {
+    width: 220px !important;  
+    height: 190px !important;
+  }
+
+  .informacao {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    margin-top: 25px !important;
+  }
+}
